@@ -35,7 +35,11 @@ This repo contains the following:
                                    |  Longitude                |
                                    
   output.csv is the output of the model. The model will output the following: 
+                                   
                                    | not_top_25 |  top_25   |
-                                   | probability|probability|   
+                                   | probability|probability|
   
   the probability ranging from 0 to 1.
+  
+  TODO:
+  - create flask server allow for localized API call  
