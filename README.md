@@ -10,7 +10,7 @@ This repo contains the following:
  
                                   ./run.sh input.csv output.csv
    
-  input.csv is the input to the model. The model was trained from the following inputs:
+  input.csv is the path of the input to the model. The model was trained from the following inputs:
 
                                    |  Variables                |
                                    |---------------------------|
@@ -34,12 +34,14 @@ This repo contains the following:
                                    |  Latitude                 |
                                    |  Longitude                |
                                    
-  output.csv is the output of the model. The model will output the following: 
+  output.csv is the path of the output of the model. The model will output the following: 
                                    
                                    | not_top_25 |  top_25   |
                                    | probability|probability|
   
   the probability ranging from 0 to 1.
+  An actual input sample and output sample is included: input.csv, output.csv
+  
   
   TODO:
   - create flask server allow for localized API call  
